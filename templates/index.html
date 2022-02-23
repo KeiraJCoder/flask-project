@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+
+
+
+{% block content %}
+<div id="top">
+
+    <img class="logo" src="/static/Long-logo-c-white-5b451c8bfb4d8342de7e3ec34ed9301d.png">
+</div>
+    <h1>Python Exercises</h1>
+    <p>Welcome to Python Exercises, this is the part of our Python week where we test what you've learned so far.<br><br>
+    Try not to panic though. This isn't a marked piece of work, its just helping you to test your skills with not only Python and its syntax, but with industry specific names.<br><br>
+    Enter your answer to each task and then press submit to get your score!<br><br>
+    Have fun!</p>
+
+<!-- =============================NAME INPUT========================================== -->
+
+<!-- UNDER CONSTRUCTION -->
+
+<form id="name">
+        <input type="text" name="firstName" placeholder="FORM CURRENTLY UNDER CONSTRUCTION" required autocomplete="off"> <br>
+        <input type="text" name="lastName" placeholder="FORM CURRENTLY UNDER CONSTRUCTION" required autocomplete="off"> <br>
+        <br><br>
+        <input type="submit" name="submit" value="Submit">
+</form>
+
+
+<div id="QUESTIONS">
+<!-- =====================QUESTION 1================================================== -->
+
+    <form onsubmit="check1(); return false">
+        <h2>Task 1</h2> 
+    
+        <p>How would you make the terminal say Hello World?</p>
+        <input type="text" name="q1" id="q1">
+        <input class="btn" name="submit" type="submit" value="Submit">
+    </form>
+
+<!-- ======================QUESTION 2=================================================  -->
+
+
+    <form onsubmit="check2(); return false">
+        <h2>Task 2</h2> 
+    
+        <p>Create a variable called carname and give it a value of Volvo</p>
+        <input type="text" id="q2">
+        <input class="btn"  type="submit" value="Submit">
+    </form>
+
+<!-- ========================QUESTION 3=============================================== -->  
+
+
+    <form onsubmit="check3(); return false">
+         <h2>Task 3</h2> 
+    
+        <p>Create a variable named i and assign it a value of 50</p>
+        <input type="text" id="q3" >
+        <input class="btn" type="submit" value="Submit">
+    </form>
+
+<!-- =========================QUESTION 4==============================================  -->
+
+
+    <form onsubmit="check4(); return false">
+        <h2>Task 4</h2> 
+        
+        <p>Make this code snippet run</p>
+        <code>2my-1st_name = "john'</code>
+
+        <input type="text" id="q4">
+        <input class="btn" type="submit" value="Submit">
+    </form>
+
+<!-- =========================QUESTION 5==============================================  -->
+
+
+    <form onsubmit="check5(); return false">
+        <h2>Task 5</h2> 
+<p>How would we print this string in all capitals?</p>
+
+<code>"i live in england"</code>
+        
+
+        <input type="text" id="q5">
+        <input class="btn" type="submit" value="Submit">
+    </form>
+</div>
+
+
+<nav>
+    <a href="/next">
+        <button>Next → </button>
+    </a>
+</nav>
+{% endblock %}
+
+

@@ -1,0 +1,184 @@
+@font-face {
+  font-family: "GilroyExtraBold";
+  src: url("Gilroy-ExtraBold.otf");
+}
+  
+@font-face {
+  font-family: "GilroyLight";
+  src: url("Gilroy-Light.otf");
+}
+
+*{
+  box-sizing: border-box;
+  padding:30px;
+}
+
+body {
+  background-color: rgb(39, 78, 155);
+
+  }
+
+.btn{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  width:auto;
+}
+
+.btn:focus {
+  color: #f5b32f;
+}
+
+.btn:hover {
+  background-color: rgb(39, 78, 155);
+
+}
+
+img{
+  display: flex;
+  justify-content: center;
+}
+
+code {
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 23px;
+  color:greenyellow;
+}
+
+.error {
+  display:flex;
+  justify-content: center;
+  color:red;
+  text-align: start;
+}
+
+form {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-style: double;
+  border-color: rgb(255, 255, 255);
+  border-width: 15px;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+
+
+input{
+  display:flex;
+  align-self: center;
+  flex-wrap: wrap;
+  width:60%;
+}
+  
+input[type=submit] {
+ 
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 0.4.6em;
+  background-color: rgb(255, 251, 0);
+}
+
+h1 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "GilroyExtraBold", serif;
+  font-size: 6vw;
+  color: #f5b32f;
+  text-shadow: black 2px 2px;
+  text-align: center;
+}
+  
+h2, h3 {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "GilroyExtraBold", serif;
+  font-size: 3vw;
+  text-align: center;
+  color: #f5b32f;
+}
+  
+p {
+  font-family: "gilroylight", serif;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2vw;
+  color: #f5b32f;
+}
+
+li {
+  display: flex;
+  align-items:center;
+  text-align: center;
+  font-family: "gilroylight", serif;
+  font-size: 25px;
+  color: #f5b32f;
+}
+
+#name{
+  display:flex;
+  padding:30px;
+  flex-direction: row;
+  align-items:center;
+  font-family: "gilroylight", serif;
+  color: #f5b32f;
+  font-size: 25px;
+  size:auto;
+}
+
+.btn2{
+  display: flex;
+  justify-self: space-evenly;
+  align-self: center;
+  width:10px;
+  text-align: center;
+  height:5px;
+}
+
+.btn2:hover {
+  background-color: rgb(56, 115, 233);
+}
+  
+.box2{
+  display:flex;
+  flex-direction: row;
+  justify-self: center;
+  width:70%;
+}
+
+#top{
+  display:flex;
+  justify-self: center;
+  text-align: center;
+  size:auto;
+}
+
+a{
+  display:flex;
+  justify-content:center;
+  color:#f5b32f;
+  font-family: "gilroylight", serif;
+
+}
+
+.logo{
+  display:flex;
+  justify-content: center;
+  width:100%;
+}
+
+.nav {
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  font-size:20px;
+}
+

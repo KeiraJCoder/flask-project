@@ -1,0 +1,124 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div id="QUESTIONS">
+    <!--==============================QUESTION 16=========================================  -->
+
+
+<form onsubmit="check16(); return false">
+    <h2>Task 16</h2> 
+<p>What would you add to the bottom of this code to order a large latte?</p>
+
+<code>
+    def coffee_order(size, drink_type): <br><br><br>
+
+           print(f"Here’s your {size} {drink_type}.") <br>
+    
+      </code>
+
+    <input type="text" id="q16">
+    <input class="btn" type="submit" value="Submit">
+</form>
+
+<!--==============================QUESTION 17=========================================  -->
+
+
+<form onsubmit="check17(); return false">
+    <h2>Task 17</h2> 
+<p>This function isn't working, everything seems to be there but I'm getting this error</p>
+<p class="error">Traceback (most recent call last):
+    File "/Users/Desktop/CodeNation/python/Exercises/tasks.py", line 23, 
+      cash_machine(1234, 400) <br><br>
+    File "/Users/Desktop/CodeNation/python/Exercises/tasks.py", line 15, in cash_machine
+      if entered_pin == actual_pin and amount <= balance: <br><br>
+  UnboundLocalError: local variable 'balance' referenced before assignment</p>
+<p>What do I need to add to make it work?</p>
+<code>
+actual_pin = 1234 <br>
+
+balance = 500 <br><br>
+
+ 
+
+def cash_machine(entered_pin, amount): <br><br>
+
+________________<br><br>
+
+if entered_pin == actual_pin and amount <= balance: <br>
+
+balance -= amount <br>
+
+print(f"Dispensing cash of £{amount}. Your new balance is £{balance}.") <br><br>
+
+elif entered_pin == actual_pin and amount > balance: <br>
+
+print(f"Insufficient funds, you cannot withdraw £{amount}. You only have £{balance} in your account.") <br>
+
+else: <br>
+
+print("Incorrect PIN") <br><br><br>
+
+cash_machine(1234, 400) <br>
+
+
+    
+      </code>
+
+    <input type="text" id="q17">
+    <input class="btn" type="submit" value="Submit">
+</form>
+
+<!--==============================QUESTION 18=========================================  -->
+
+
+<form onsubmit="check18(); return false">
+    <h2>Task 18</h2> 
+<p>Rewrite this line of code so it works</p>
+
+<code>
+    fav_films == "Ghostbusters" 'Deadpool" "Titanic"]
+     
+</code>
+
+    <input type="text" id="q18">
+    <input class="btn" type="submit" value="Submit">
+</form>
+
+<!--==============================QUESTION 19=========================================  -->
+
+
+<form onsubmit="check19(); return false">
+    <h2>Task 19</h2> 
+<p>Now print the list into the terminal</p>
+
+
+    <input type="text" id="q19">
+    <input class="btn" type="submit" value="Submit">
+</form>
+
+<!--==============================QUESTION 20=========================================  -->
+
+
+<form onsubmit="check20(); return false">
+    <h2>Task 20</h2> 
+<p>Now print Ghostbusters into the terminal using the list</p>
+
+
+    <input type="text" id="q20">
+    <input class="btn" type="submit" value="Submit">
+</form>
+
+</div>
+
+<nav>
+    <a href="/next2">
+        <button> ← Back</button>
+    </a>
+    <a href="/next4">
+        <button>Next → </button>
+    </a>
+    
+</nav>
+
+ {% endblock %}

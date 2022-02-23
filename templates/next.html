@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+    
+    
+{% block content %}
+
+<div id="QUESTIONS">
+
+    <!-- =========================QUESTION 6============================================== -->
+
+
+    <form onsubmit="check6(); return false">
+        <h2>Task 6</h2> 
+<p>How would you access the random library?</p>
+
+        <input type="text" id="q6">
+        <input class="btn" type="submit" value="Submit">
+    </form>
+
+<!--==============================QUESTION 7=========================================  -->
+
+
+    <form onsubmit="check7(); return false">
+        <h2>Task 7</h2> 
+<p>After you have imported the random library, how would you generate and print a random integer between 1 and 10?</p>
+
+
+        <input type="text" id="q7">
+        <input class="btn" type="submit" value="Submit">
+    </form>
+
+<!--==============================QUESTION 8=========================================  -->
+
+
+<form onsubmit="check8(); return false">
+    <h2>Task 8</h2> 
+<p>How would you make a programme that asks for your name as input?</p>
+
+
+    <input type="text" id="q8">
+    <input class="btn" type="submit" value="Submit">
+</form>
+
+<!--==============================QUESTION 9=========================================  -->
+
+
+<form onsubmit="check9(); return false">
+    <h2>Task 9</h2> 
+<p>How would you print out this variable?</p>
+<code>fav_drink="coffee"</code>
+
+
+    <input type="text" id="q9">
+    <input class="btn" type="submit" value="Submit">
+</form>
+
+<!--==============================QUESTION 10=========================================  -->
+
+
+<form onsubmit="check10(); return false">
+    <h2>Task 10</h2> 
+<p>How would you convert this to an f string?</p>
+<code>print("My favourite drink is {}".format(fav_drink)) </code>
+
+
+    <input type="text" id="q10">
+    <input class="btn" type="submit" value="Submit">
+</form>
+
+<!-- =======================================================================  -->
+</div>
+<!-- <p>Your total points are</p> -->
+
+<nav>  
+    <a href="/">
+        <button> ← Back</button>
+    </a>
+
+    <a href="/next2">
+        <button>Next → </button>
+    </a>
+ </nav> 
+
+{% endblock %}

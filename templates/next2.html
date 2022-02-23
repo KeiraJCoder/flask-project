@@ -1,0 +1,121 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div id="QUESTIONS">
+<!--==============================QUESTION 11=========================================  -->
+
+
+<form onsubmit="check11(); return false">
+    <h2>Task 11</h2> 
+<p>Without changing this code what would be the best way to add 2 to i?</p>
+<code>i = 10 </code>
+
+
+    <input type="text" id="q11">
+    <input class="btn" type="submit" value="Submit">
+</form>
+
+<!--==============================QUESTION 12=========================================  -->
+
+
+<form onsubmit="check12(); return false">
+    <h2>Task 12</h2> 
+<p>What would you expect the terminal output to be for this code snippet?</p>
+
+<code class="code1">
+
+Age = 21 
+    <br><br>
+if age > 17: <br>
+print("Yes I can serve you")   <br>
+else:  <br>
+    print("You aren’t old enough")    <br> 
+</code>
+
+
+    <input type="text" id="q12">
+    <input class="btn" type="submit" value="Submit">
+</form>
+
+<!--==============================QUESTION 13=========================================  -->
+
+
+<form onsubmit="check13(); return false">
+    <h2>Task 13</h2> 
+<code>print(10/3)</code><p> gives a result of 9</p>
+<p>What would we expect the output be for this code? </p><code>print(10%3)</code>
+
+
+
+    <input type="text" id="q13">
+    <input class="btn" type="submit" value="Submit">
+</form>
+
+<!--==============================QUESTION 14=========================================  -->
+
+
+<form onsubmit="check14(); return false">
+    <h2>Task 14</h2> 
+<p>If you were to run this code, what would the expected output be?</p>
+
+<code>
+    password = "qwerty" <br><br>
+
+    if len(password) < 8: <br>
+    
+    print("Password is too short") <br>
+    
+    else: <br>
+    
+    print(password) </code>
+
+
+
+    <input type="text" id="q14">
+    <input class="btn" type="submit" value="Submit">
+</form>
+
+<!--==============================QUESTION 15=========================================  -->
+
+
+<form onsubmit="check15(); return false">
+    <h2>Task 15</h2> 
+<p>If you were to run this code, what would the expected output be?</p>
+
+<code>
+    num = 21 <br><br><br>
+
+if num % 3 == 0 and num % 7 == 0: <br>
+
+print("Fizz Buzz") <br><br>
+
+elif num % 7 == 0: <br>
+
+print("Buzz") <br><br>
+
+elif num % 3 == 0: <br>
+
+print("Fizz") <br><br>
+
+else: <br>
+
+print(num)  </code>
+
+    <input type="text" id="q15">
+    <input class="btn" type="submit" value="Submit">
+</form>
+
+</div>
+
+
+<nav>
+    <a href="/next">
+        <button> ← Back</button>
+    </a>
+    <a href="/next3">
+        <button>Next → </button>
+    </a>
+    
+</nav>
+
+{% endblock %}
